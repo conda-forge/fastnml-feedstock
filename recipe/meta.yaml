@@ -1,5 +1,5 @@
 {% set name = "fastnml" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastnml-{{ version }}.tar.gz
-  sha256: 7f06228f71054859e37c45e9954f36caa610d6c18ce9e47948b12ff6b9e982fc
+  sha256: 453af86747e432f9bbb0fde48044c1550e398ed8be4678bc48efba6ab9d5c3c2
 
 build:
   noarch: python
